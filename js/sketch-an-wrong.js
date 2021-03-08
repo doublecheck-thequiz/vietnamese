@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
   var risulFin = parseInt(check12, 10);
-  $( "#parag" ).text( "Resultados: " + risulFin +  "/12" );
+  $( "#parag" ).text( "Kết quả: " + risulFin +  "/12" );
 
   if(frameCount >= 21000){ //more or less after 3 minutes
     backHome();

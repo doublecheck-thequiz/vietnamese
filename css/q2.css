@@ -10,15 +10,19 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: bandeins_strangelight;
-  --font-regular: bandeins_strangeregular;
-  --font-bold: bandeins_strangebold;
-  --font-medium: bandeins_strangemedium;
+  --font-light: NotoSansDisplay-Light;
+  --font-regular: NotoSansDisplay-Regular;
+  --font-bold: NotoSansDisplay-Bold;
+  --font-medium: NotoSansDisplay-Medium;
+  --font-semibold: NotoSansDisplay-SemiBold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
 }
 
 p {
   font-size: 2rem;
-  font-family: bandeinsstrangeregular;
+  font-family: var(--font-regular);
   margin: 0;
 }
 
@@ -86,6 +90,41 @@ a:hover {
     url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay-Bold';
+    src: url('../css/fonts/NotoSansDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay-Regular';
+    src: url('../css/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay-SemiBold';
+    src: url('../css/fonts/NotoSansDisplay-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay-Light';
+    src: url('../css/fonts/NotoSansDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay-Medium';
+    src: url('../css/fonts/NotoSansDisplay-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
